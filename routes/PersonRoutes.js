@@ -68,6 +68,7 @@ router.post('/',async (req,res)=>{
       res.status(500).json({error:"Internal server error"});
     }
   })
+  // put nhi chala bhai 
 router.delete('/:id',async (req,res)=>{
   try {
     const personId = req.params.id; //Extract the id from URL parameter
